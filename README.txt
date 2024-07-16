@@ -1,0 +1,10 @@
+Yash Patel & Waasil Ahmed ydp11 wa147
+This program incorporates many of the functions described by the project instructions however some may not be executed perfectly and we have dealt with many errors and some weren't able to be fixed properly
+Cd: Rather than completely exiting the shell when using cd, we decided to make it so that it displays the standard message by bash which is: "cd: No such file or directory" and then on the next line, we can see the terminal waiting for another output, however, it says "Error:mysh>" meaning that the directory change has failed.
+The cd and the builtin functions by mysh all work properly and shouldn't have any errors
+Batch mode has also been implemented into this code and executes code based on the one line argument given when running the shell initially. To test this we can do something simple such as: ./mysh myscript.sh This file just shows the files or folders that we can enter/see based on the directory we are in
+Also interactive mode obviously works and all functions that were asked for should be able to be utilized in our code
+We were able to implement the redirections by using the different tokens such as '<' '>'. To prove this, we can use the example: echo "Hello, world!" > output1.txt > output2.txt and what this does is it creates two files and prints the text to the firs text file
+We were also able to implement the wildcard functions and it seems to be working for us and the ways that we implement it
+Whenever a command we execute isn't available or the argument isn't correct, our code properly displays an error message saying: 'execvp: No such file or directory'
+We included many different files to test around and make sure the shell worked. There are also folders that you can navigate through and you can change directories and do shell things
